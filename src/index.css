@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Italic";
+  src: url("/src/assets/fonts/InterVariable-Italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/src/assets/fonts/GeistMonoVF.woff2") format("woff2"), url("/src/assets/fonts/GeistMonoVF.woff") format("woff");
+  font-weight: 100 800;
+  font-style: normal;
+}
+
+body {
+  @apply font-sans;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
