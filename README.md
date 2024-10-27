@@ -2,6 +2,8 @@
 
 I created the vscode-explorer-ui project in React to familiarize myself with rendering files infinitely with proper indentation. My goal was to learn how to manage files by adding, removing, renaming them, and nesting folders. It turned out to be an enjoyable task, so I decided to enhance the project to resemble a VSCode UI!
 
+![image](https://github.com/user-attachments/assets/449eae68-ee4e-460a-aba0-d58c85c146e4)
+
 ### Features
 
 - **File and Folder Management:** Easily add, remove, and rename files and folders. You can create nested structures as well!
